@@ -1,0 +1,54 @@
+#guggal {
+  font-size: 90px;
+  font-family: impact;
+  color: #0099ff;
+  position: relative;
+  margin-left: 515px;
+  margin-top: 40px;
+  cursor: default;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #33ccff, 0 0 40px #33ccff, 0 0 50px #33ccff, 0 0 60px #33ccff, 0 0 70px #33ccff;
+}
+
+
+#Searchbar {
+  margin-left: 467px;
+  top: -10px;
+  width: 400px;
+  padding: 10px;
+  position: relative
+    
+}
+#button {margin-left: 875px;
+  cursor: pointer;
+  position: relative;
+  top: -55px
+}
+
+#button:hover {opacity: 0.5;}
+
+body {background-image: url("https://wallpaperaccess.com/full/1542410.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: full;
+  position: absolute;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #66ccff;
+  border-bottom: 1px solid #d4d4d4;
+  width: 379px;
+  margin-left: 467px;
+  font: 16px Arial;
+  position: relative;
+  top: -65px
+}
+.autocomplete-items div:hover {
+  background-color: DodgerBlue !important;
+  color: #ffffff
+}
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
